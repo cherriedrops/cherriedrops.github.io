@@ -103,6 +103,8 @@ line-height: 15px;
 margin-top:5px;
 }
 
+.video{display:block;}
+.videoMobile{display:none;}
 
 .rowTop{display:flex;}
 
@@ -212,6 +214,10 @@ iframe.center {
 	#footer{
 		font-size:8px;
 	}
+	#page-container {
+		position: relative;
+		min-width: 400px;
+	  }
 
 	.rowTop
 	{display: none;}
@@ -220,7 +226,9 @@ iframe.center {
   {display:block;
 	padding-right:20px;}
 }
+
 	
 @media only screen and (max-width: 640px) {
-	
+	.video{display:none;}
+.videoMobile{display:block;}
 }

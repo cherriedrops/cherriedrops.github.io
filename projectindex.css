@@ -80,14 +80,16 @@ li a {
 
 .row{display:flex;}
 
+.catagoryM{
+display:none;
+
+}
+
 .column{
 	width:33%;
 	padding-right: 10px;
 }
 
-.rowPhone{display:none;}
-.columnPhone{width:40%;
-	padding-right: 10px;}
 
 section{
 	padding:20px;
@@ -101,12 +103,8 @@ font-weight: 600;
 letter-spacing: 3px;
 line-height: 23px;
 }
-.row{display:flex;}
 
-.column{
-	width:33%;
-	padding-right: 10px;
-}
+
 h2 {
 	font-size: 15px;
 	letter-spacing: 3px;
@@ -201,17 +199,17 @@ a .projects:hover{
   }
 	
 @media only screen and (max-width: 640px) {
-	.catagory{padding-top: 0px;
-font-size: 15px;
-font-weight: 600;
-letter-spacing: 5px;
-line-height: 23px;}
-	
-	.row{display:none;}
+	.catagory{display:none;}
+	.catagoryM{
+		display:block;
+		padding-top: 10px;
+		font-size: 15px;
+		font-weight: 600;
+		letter-spacing: 3px;
+		line-height: 23px;}
 
 	
-	.rowPhone{display:flex;}
-	.columnPhone{width:55%;
-	padding-right: 10px;}
-	
 }
+	
+
+

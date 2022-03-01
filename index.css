@@ -294,5 +294,18 @@ section{
 		font-size:8px;}
   }
 	
+
+  #page-container {
+    position: relative;
+    min-height: 300px;
+  }
+  
+  .svgMenu { 
+    padding-top:10px;
+    padding-bottom:50px;
+    display: flex; 
+    justify-content: center;
+  } 
+
 @media only screen and (max-width: 640px) {
 }
