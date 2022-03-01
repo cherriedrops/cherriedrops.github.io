@@ -15,7 +15,7 @@ background-size: contain;
 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
-
+.mobile{display:none;}
 svg {
   display: block;
   width: 30px;
@@ -193,12 +193,7 @@ a:hover .image{
   }
 	
 @media only screen and (max-width: 640px) {
-  .otherlinks {
-    font-size:10px;
-	  line-height:15px;
-  }
-	.projects{
-	display:block;
-}
+	.projects{display:none;}
 
+	.mobile {display:block;}
 }
