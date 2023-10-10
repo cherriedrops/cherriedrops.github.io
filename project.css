@@ -66,17 +66,6 @@ li a {
 	
 }
 
-a:hover{
-	color:#AFCAB7;
-
-	cursor: pointer;
-}
-
-a:hover .image{
-	opacity:0.5;
-	cursor: pointer;
-}
-
 
 .header{
 	font-size: 15px;
@@ -147,7 +136,7 @@ position:absolute;
 /*	height:100%;*/
 	text-align:center;
 	overflow:hidden;
-	margin-top:10px;
+	margin-top:1px;
 }
 
 
@@ -170,7 +159,7 @@ svg{
 .grid .img-wrapper {
 	width:50%;
 	float:left;
-	padding: 50px;
+	padding: 30px;
 	box-sizing: border-box;
 }
 
@@ -196,6 +185,7 @@ svg{
 .grid .img-3 {
 	padding-top:0%;
 }
+
 
 .grid .img-4 img{
 	width:100%;
@@ -355,20 +345,22 @@ padding-top:0px;
 	line-height: 10px;
 }
 
-.img_1{background-image: url("../image/project/Community/ruined/1.png");}
-.img_2{background-image: url("../image/project/Community/archieve/1.png");}
-.img_3{background-image: url("../image/project/Community/boardgame/1.jpeg");}
-.img_4{background-image: url("../image/project/society/sts/cover.png");}
-.img_5{background-image: url("../image/project/publication/surveillence/00.png");}
-.img_6{background-image: url("../image/project/publication/experience/000.png");}
-.img_7{background-image: url("../image/project/publication/4tlo/1.png");}
-.img_8{background-image: url("../image/project/publication/moments/1.png");}
-.img_9{background-image: url("../image/project/illustration/orientation/1.png");}
-.img_10{background-image: url("../image/project/illustration/secondhand/1.png");}
-.img_11{background-image: url("../image/project/art/dream/001.jpeg");}
+
+.toindex{
+	padding-top:3%;
+	padding-bottom:3%;
+}
 
 
-
+.catagory2 {
+font-size: 25px;
+font-weight: 600;
+letter-spacing: 5px;
+line-height: 23px;
+text-align: center;
+padding-right:20px;
+	
+}
 
 
 
@@ -405,7 +397,21 @@ padding-top:0px;
    text-align: center;
 	position: absolute;
 	height:0px;
+	margin-top: 10%;
+	margin-bottom: 5%;
+
 }
+
+a:hover{
+	color:#AFCAB7;
+	cursor: pointer;
+}
+
+a:hover .image{
+	opacity:0.5;
+	cursor: pointer;
+}
+
 
 @media only screen and (max-width: 950px) {
 	.top{

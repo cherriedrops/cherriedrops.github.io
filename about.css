@@ -193,9 +193,7 @@ a:hover .image{
   }
 	
 @media only screen and (max-width: 640px) {
+	.projects{display:none;}
 
-.projects{display:none;}
-
-.mobile {display:block;}
-
+	.mobile {display:block;}
 }
